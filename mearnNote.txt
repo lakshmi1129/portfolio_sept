@@ -157,3 +157,4 @@
                     - git status: use to check status of git in folder
                     - git init: used to create/ initiate git repository in a folder
                     - git add . : used to track all untrackedfiles to git
+                    - git commit -m "message" : used to store/save tracked files to git
