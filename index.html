@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Fontawsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Princess+Sofia&family=Sofadi+One&family=Sofia&display=swap"
+        rel="stylesheet">
+        <!-- animatecss -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <!-- AOS animation -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- navbar -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images/logo.png" alt="">
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="links" href="#home">Home</a></li>
+                <li class="list-items"><a class="links" href="#about">About</a></li>
+                <li class="list-items"><a class="links" href="#skill">Skill</a></li>
+                <li class="list-items"><a class="links" href="#contact">Contact</a></li>
+
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div class="section-content">
+                <h1 class="animate__animated animate__wobble" id="username">I'm Maria <span id="lname">Joe</span></h1>
+                <p id="userDetails">This is my official portfolio website to describe all <br>
+                    Details and work experience in Web Development
+                </p>
+                <a id="download" href="">Download CV</a>
+            </div>
+            <div class="section-img">
+                <!-- shape -->
+                <img id="shape" class="group1" src="./images/bg-final.png" alt="no image">
+                <!-- girl -->
+                <img id="girl" class="group1" src="./images/businesslady-final.png" alt="no image">
+            </div>
+        </section>
+        <!-- about  -->
+        <section id="about">
+            <div class="sectionHead">
+                <h2 class="mainHead">About Me</h2>
+                <span class="subHead">Introduction</span>
+            </div>
+            <div class="aboutBody">
+                <div data-aos="fade-right" class="aboutImage">
+                    <img class="img1" src="./images/aboutme.jpg" alt="no Image">
+                </div>
+                <div class="aboutContent">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, nihil cupiditate! Dolorem
+                        mollitia veniam eligendi velit, dolores voluptatibus iste magni, tempora ullam fugit dolore
+                        dolorum in aliquam sunt minima id!
+                        Eos eveniet odio consequatur ullam nemo officiis dolore ex esse earum nihil veritatis ab dolores
+                        non voluptatum voluptates impedit dolorem, aspernatur ducimus adipisci fugiat id! Id sunt sint
+                        eum nesciunt.
+                    </p>
+                    <div class="informations">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Maria Joe</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>9847402206</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>abc@123</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skills -->
+        <section id="skill">
+            <div class="sectionHead">
+                <h2 class="mainHead">Skills</h2>
+                <span class="subHead">My Skills</span>
+            </div>
+            <div class="skillcontent">
+                <!-- progressbars -->
+                <div class="progressbars">
+                    <!-- htmlBar -->
+                    <div class="bars">
+                        <h3 class="barHead">html</h3>
+                        <span class="barPercent">93%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar htmlbar"></div>
+                    </div>
+                    <!-- CSS bar -->
+                    <div class="bars">
+                        <h3 class="barHead">CSS</h3>
+                        <span class="barPercent">90%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar cssbar"></div>
+                    </div>
+                    <!-- JS bar -->
+                    <div class="bars">
+                        <h3 class="barHead">JS</h3>
+                        <span class="barPercent">75%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar jsbar"></div>
+                    </div>
+                    <!-- Reactbar -->
+                    <div class="bars">
+                        <h3 class="barHead">React</h3>
+                        <span class="barPercent">79%</span>
+                        <div class="basebar"></div>
+                        <div data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar reactbar"></div>
+                    </div>
+                </div>
+                <!-- skillImage -->
+                <div data-aos="fade-left" class="skillImage">
+                    <img width="500px" class="myskill" src="./images/skill.jpg" alt="no image">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionHead">
+                <h2 class="mainHead">Contacts</h2>
+                <span class="subHead">My Contacts</span>
+            </div>
+            <!-- icons -->
+            <div class="iconCollections">
+                <!-- linked in -->
+                 <div class="icon">
+                    <a target="_blank"  href="https://www.linkedin.com/in/lakshmi-priya-k-m-45528b258/" ><i class="fa-brands fa-linkedin-in brands"></i></a>                  
+                 </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a target="_blank"  href="https://www.linkedin.com/in/lakshmi-priya-k-m-45528b258/" ><i class="fa-brands fa-facebook-f brands "></i></a>                  
+                 </div>
+                <!-- github -->
+                <div class="icon">
+                    <a target="_blank"  href="https://www.linkedin.com/in/lakshmi-priya-k-m-45528b258/" ><i class="fa-brands fa-github brands"></i></a>                  
+                 </div>
+                <!-- watsapp -->
+                <div class="icon">
+                    <a target="_blank"  href="https://www.linkedin.com/in/lakshmi-priya-k-m-45528b258/" ><i class="fa-brands fa-whatsapp brands"></i></a>                  
+                 </div>
+                <!-- intagram -->
+                <div class="icon">
+                    <a target="_blank"  href="https://www.linkedin.com/in/lakshmi-priya-k-m-45528b258/" ><i class="fa-brands fa-instagram brands"></i></a>                  
+                 </div>
+                <!-- twitter -->
+                <div class="icon">
+                    <a target="_blank"  href="https://www.linkedin.com/in/lakshmi-priya-k-m-45528b258/" ><i class="fa-brands fa-twitter brands"></i></a>                  
+                 </div>
+            </div>
+        </section>
+        <!-- footer -->
+         <footer>
+            <p id="copyright"> &copy; My portfolio Website -June 2024, All RightsReserved to &reg; Maria Joe</p>
+            <div class="icon upArrow">
+                <a  href="#container" ><i class="fa-solid fa-arrow-up brands"></i></a>                  
+             </div>
+         </footer>
+
+    </div>
+</body>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</html>

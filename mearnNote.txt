@@ -1,0 +1,159 @@
+             --------------------------------------------------------------------      
+                                         MERAN STACK
+                   --------------------------------------------------------------------
+
+
+             ------------------------------------------------------------------------------
+                                             HTML - Hyper Text Markup Language
+                  ------------------------------------------------------------------------------
+
+                  1. Markup language: It has a set of rules that will define what type of content a document should hold
+                  2. HTML: Used to display conenets in web page
+                  3. HTML Document: Collection of HTML elements
+                        - HTML Element: <starting tag>
+                                             content 
+                                        <closing tag>
+                        -Tag: <> </>
+                        - Structure of html: 
+                                    <html>
+                                        <head>
+                                            <title> </title>
+                                        </head>
+                                        <body>
+                                            Content
+                                        </body>
+                                    </html>
+                    4. HTML Latest version -
+                           - HTML 5
+                    5. Basic Tags -  
+                            - Heading Tag - <h1> - <h6>              
+                            - paragraph - p tag
+                            - image - img
+                            - a - link
+                            - bold - b , strong tag
+                            - italics - em tag
+                            - strike - del, s tag
+                            - underline - ins tag
+                            - highlight - mark tag
+                            - Break tag - br tag
+                            - Horizontal line - hr tag
+                            - Subscript - sub tag
+                            - superscript - sup tag
+                            - ordered list - ol tag, li tag
+                            - unordered list - ul tag, li tag
+                            - Description list :  dl tag , dt tag, dd tag
+                            - Table : <table>
+                                        <thead>
+                                            <tr>
+                                                <th> </th>
+                                                <th> </th>
+                                                <th> </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td> </td>
+                                            </tr>
+                                        </tbody>
+                                      </table>
+                            - Video : video tag
+                            - Container tags:
+                                - div tag
+                                - article tag
+                                - section tag
+                            - iframe : Embed contents in a  webpage
+                            - form tags : form tag
+                               - label tag
+                               - input tag - types--text, number, date, email, password
+                               - textarea
+                               - Buttons
+
+                    6. Tags can be classified according to their display in web browser
+                        - Block elements - takes enire width of browser
+                            eg: heading tag, p tag
+                        - Inline elements - Takes only the width of its content
+                            eg: a tag, img tag
+                    7. semantic tags :describes its meaning to both browser and developer
+                        - header tag <header>
+                        - nav tag <nav>
+                        -section tag <section>
+                        - article tag <article>
+                        - aside tag <aside>
+                        - footer tag <footer>
+
+
+             ------------------------------------------------------------------------------
+                            CSS- Cascading Style Sheet
+             ------------------------------------------------------------------------------
+
+             1. used to give style to HTML elements
+             2. Ways to apply CSS in HTML elements
+                    - Inline CSS :  use  style attribute
+                              syntax: style="property:value;"
+                    - Internal CSS : use Style tag
+                              styntax:  <style>
+                                           selectors{
+                                            property:value;
+                                           }
+                                        </style>
+                    - External CSS : Use External CSS file, we have to link the external file with HTML file
+                                styntax: 
+                                           selectors{
+                                            property:value;
+                                           }
+             3. CSS Selectors: used to select html elements to a css file
+                    - use tag name
+                    - use id - #
+                    - use class - .
+                    - use universal selector - *
+                    - CSS combinators : 
+                        - Grouping selectors - (use commas too seperate each HTML elements)
+                        - Descendent selector  - using space 
+                        - child selector - > symbol
+                        - sibling selector - using ~
+                        - Immediate sibling selector - using +
+                    - Box model: Margin
+                                 padding
+                                 border
+                    - CSS Properties:
+                        - float
+                        - position
+                            - static
+                            - fixed
+                            - absolute
+                            - relative
+                            - sticky
+                        - Z-index
+                        - FlexBox - used to arrange html Elements in either row/column
+                            -Flex Container - parent tag which holds elementsto be arranged as row/column, 
+                                flex should be applied to parent element
+                            - flex-direction
+                            - justify-content
+                            - align-items
+                    - Psedo class: used to define a special state of an element.
+                        syntax: selector:pseudo-class {
+                                    property: value;
+                                    }
+                    -Grid: used to display elements in row/column, where user can fix the column width
+                        - Grid Container: display as grid
+                        - grid-template-colum/row: used to set the width of colum /row
+                        - gap: used to set the space between row or column
+                        - grid item
+                    - linear gradient: is used to set combinations of colors as background
+                        -syntax: background-image: linear-gradient(direction, color-stop1, colorstop2)
+                    -Animation in css: animation property, to define @keyframes
+                        -Animation libraries: https://animate.style/
+                        - AOS animation: https://michalsnik.github.io/aos/
+                    -website hosting servers: 
+                        - netlify   
+                        - github pages
+                        - vercel
+
+             ------------------------------------------------------------------------------
+                      Git and Github
+             ------------------------------------------------------------------------------ 
+             1.  GIT: used to control version of a code
+             2. Git commands: 
+                    - git status: use to check status of git in folder
+                    - git init: used to create/ initiate git repository in a folder
+                    - git add . : used to track all untrackedfiles to git
